@@ -4,14 +4,13 @@ import org.openqa.selenium.WebDriver;
 
 import org.openqa.selenium.edge.EdgeDriver;
 import org.testng.annotations.Test;
-import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class LoginTest {
 
     @Test
     public void login() throws Exception {
 
-    	WebDriverManager.edgedriver().setup();
+    	
     	WebDriver driver = new EdgeDriver();
         
 
